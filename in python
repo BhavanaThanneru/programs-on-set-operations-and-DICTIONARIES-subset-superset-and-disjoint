@@ -1,0 +1,17 @@
+m={1,2,4}
+n={1,2,3,4,5}
+
+#issubset()
+
+print(m.issubset(n)) # having common values in both sets
+print(n.issuperset(m)) #having same elements with a extra one value in sets
+print(m.isdisjoint(n)) # not having common set values in both sets "disjoint"
+
+
+
+
+# DICTIONARIES:
+
+dict_a={"college":"qis","location":"nellore",}
+print(dict_a.keys())
+print(dict_a.items())
